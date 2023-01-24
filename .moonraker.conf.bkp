@@ -24,13 +24,6 @@ trusted_clients =
 
 [history]
 
-[update_manager client z_calibration]
-type = git_repo
-path = ~/klipper_z_calibration
-origin = https://github.com/protoloft/klipper_z_calibration.git
-install_script = install.sh
-managed_services = klipper
-
 [update_manager]
 
 [update_manager client mainsail]
